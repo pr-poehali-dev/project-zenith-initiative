@@ -70,13 +70,13 @@ export function Contact() {
             >
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Почта</p>
-                <a href="mailto:hello@example.com" className="text-foreground hover:text-sage transition-colors">
-                  hello@example.com
+                <a href="mailto:info@fourway.pro" className="text-foreground hover:text-sage transition-colors">
+                  info@fourway.pro
                 </a>
               </div>
               <div>
                 <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Локация</p>
-                <p className="text-foreground">Москва и Санкт-Петербург</p>
+                <p className="text-foreground">Atlanta, Georgia, US</p>
               </div>
             </div>
           </div>

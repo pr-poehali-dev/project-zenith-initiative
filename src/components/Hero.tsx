@@ -17,7 +17,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Студия архитектуры и дизайна
+          Архитектура и дизайн · Atlanta, Georgia
         </p>
 
         <h1
@@ -25,8 +25,8 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Архитектура,
-          <span className="block text-sage">рождённая из смысла</span>
+          Четыре пути —
+          <span className="block text-sage">одно видение</span>
         </h1>
 
         <p
@@ -34,7 +34,7 @@ export function Hero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
-          Мы создаём пространства, которые говорят без слов. Каждый проект — это авторская работа, где форма следует за жизнью.
+          Мы проектируем пространства, где классические принципы встречаются с современными решениями. Каждый проект — баланс вашего видения и нашей экспертизы.
         </p>
 
         <div

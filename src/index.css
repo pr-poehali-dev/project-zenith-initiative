@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap&subset=cyrillic,cyrillic-ext,latin,latin-ext');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,43 +6,43 @@
 
 @layer base {
   :root {
-    /* Japandi color palette - warm naturals with muted accents */
-    --background: 40 20% 96%;
-    --foreground: 30 15% 15%;
+    /* Fourway brand palette */
+    --background: 60 33% 96%; /* Кремовый #F5F5DC */
+    --foreground: 213 52% 24%; /* Темно-синий #1E3A5F */
 
-    --card: 40 15% 98%;
-    --card-foreground: 30 15% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 213 52% 24%;
 
-    --popover: 40 15% 98%;
-    --popover-foreground: 30 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 52% 24%;
 
-    --primary: 150 30% 25%;
-    --primary-foreground: 40 15% 98%;
+    --primary: 213 52% 24%; /* Темно-синий #1E3A5F */
+    --primary-foreground: 60 33% 96%;
 
-    --secondary: 40 15% 92%;
-    --secondary-foreground: 30 15% 15%;
+    --secondary: 60 33% 90%;
+    --secondary-foreground: 213 52% 24%;
 
-    --muted: 40 12% 90%;
-    --muted-foreground: 30 8% 45%;
+    --muted: 60 20% 90%;
+    --muted-foreground: 213 20% 45%;
 
-    --accent: 25 50% 55%;
-    --accent-foreground: 40 15% 98%;
+    --accent: 76 44% 24%; /* Серо-зеленый #4A5D23 */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 15% 88%;
-    --input: 40 15% 88%;
-    --ring: 150 30% 25%;
+    --border: 60 15% 84%;
+    --input: 60 15% 84%;
+    --ring: 76 44% 24%;
 
-    --radius: 0.25rem;
+    --radius: 0.125rem;
 
-    /* Custom Japandi tokens */
-    --sand: 40 20% 92%;
-    --sage: 150 30% 25%;
-    --terracotta: 25 50% 55%;
-    --indigo: 260 30% 35%;
-    --stone: 40 8% 70%;
+    /* Custom Fourway tokens */
+    --sand: 60 33% 93%; /* Кремовый светлый */
+    --sage: 76 44% 24%; /* Серо-зеленый #4A5D23 */
+    --terracotta: 46 65% 52%; /* Золотой #D4AF37 */
+    --indigo: 213 52% 24%; /* Темно-синий */
+    --stone: 213 15% 55%; /* Серо-голубой */
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -55,39 +55,39 @@
   }
 
   .dark {
-    --background: 30 15% 10%;
-    --foreground: 40 15% 92%;
+    --background: 213 40% 12%;
+    --foreground: 60 20% 92%;
 
-    --card: 30 15% 12%;
-    --card-foreground: 40 15% 92%;
+    --card: 213 40% 15%;
+    --card-foreground: 60 20% 92%;
 
-    --popover: 30 15% 12%;
-    --popover-foreground: 40 15% 92%;
+    --popover: 213 40% 15%;
+    --popover-foreground: 60 20% 92%;
 
-    --primary: 150 25% 45%;
-    --primary-foreground: 30 15% 10%;
+    --primary: 76 35% 45%;
+    --primary-foreground: 213 40% 12%;
 
-    --secondary: 30 12% 18%;
-    --secondary-foreground: 40 15% 92%;
+    --secondary: 213 30% 20%;
+    --secondary-foreground: 60 20% 92%;
 
-    --muted: 30 12% 18%;
-    --muted-foreground: 40 10% 65%;
+    --muted: 213 30% 20%;
+    --muted-foreground: 60 15% 65%;
 
-    --accent: 25 40% 45%;
-    --accent-foreground: 30 15% 10%;
+    --accent: 76 35% 45%;
+    --accent-foreground: 213 40% 12%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 12% 22%;
-    --input: 30 12% 22%;
-    --ring: 150 25% 45%;
+    --border: 213 25% 22%;
+    --input: 213 25% 22%;
+    --ring: 76 35% 45%;
 
-    --sand: 30 12% 22%;
-    --sage: 150 25% 45%;
-    --terracotta: 25 40% 45%;
-    --indigo: 260 25% 40%;
-    --stone: 30 8% 35%;
+    --sand: 213 25% 18%;
+    --sage: 76 35% 45%;
+    --terracotta: 46 50% 45%;
+    --indigo: 213 52% 40%;
+    --stone: 213 15% 40%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -109,7 +109,6 @@
     @apply bg-background text-foreground font-sans antialiased;
   }
 
-  /* Smooth scrolling for Japandi feel */
   html {
     scroll-behavior: smooth;
   }

@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 const services = [
   {
-    title: "Архитектурное проектирование",
-    description: "Разработка авторских концепций и проектной документации — от частных резиденций до общественных пространств.",
+    title: "Классика",
+    description: "Верность проверенным архитектурным традициям. Мы строим на фундаменте надёжных решений, которые выдержали испытание временем.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -15,8 +15,8 @@ const services = [
     ),
   },
   {
-    title: "Дизайн интерьера",
-    description: "Создание среды, отражающей характер клиента. Продуманные планировки, материалы и свет, которые работают как единое целое.",
+    title: "Инновации",
+    description: "Современные технологии и свежие направления для прорывных решений. Мы не боимся выходить за рамки привычного — там рождается лучшее.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -28,8 +28,8 @@ const services = [
     ),
   },
   {
-    title: "Авторский надзор",
-    description: "Сопровождение проекта от первого эскиза до финального объекта. Мы контролируем каждую деталь на строительной площадке.",
+    title: "Практичность",
+    description: "Фокус на реализуемости и эффективности каждого проекта. Красивые идеи, которые воплощаются в жизнь точно и в срок.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -41,8 +41,8 @@ const services = [
     ),
   },
   {
-    title: "Концептуальное проектирование",
-    description: "Разработка идеи и образа будущего пространства. Визуализации, модели и презентации, передающие атмосферу ещё до начала строительства.",
+    title: "Устойчивость",
+    description: "Экологичные материалы и клиент-центричный дизайн для долгосрочной ценности. Мы создаём то, что служит людям и природе десятилетиями.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -85,14 +85,14 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            Наши услуги
+            Четыре принципа
           </p>
           <h2
             className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground text-balance transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Что мы создаём
+            На чём стоит Fourway
           </h2>
         </div>
 
